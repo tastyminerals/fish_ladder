@@ -207,7 +207,7 @@ if __name__ == '__main__':
                      required=False)
     prs.add_argument('-p', '--player',
                      help='Display information about specific player using his'
-                     'nickname. It can be a real nickname or fish nickname.',
+                     ' nickname. It can be a real nickname or fish nickname.',
                      required=False)
     prs.add_argument('-pls', '--players', action='store_true',
                      help='Display a list of currently known BW players.',
