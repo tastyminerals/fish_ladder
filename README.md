@@ -14,7 +14,7 @@ optional arguments:
                         default = 20.
   -p PLAYER, --player PLAYER
                         Display information about specific player using
-                        hisnickname. It can be a real nickname or fish
+                        his nickname. It can be a real nickname or fish
                         nickname.
   -pls, --players       Display a list of currently known BW players.
   -u, --update          Fetch most recent data from tl.wiki and fish.
