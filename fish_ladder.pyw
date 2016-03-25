@@ -160,7 +160,7 @@ def get_player_info(player_name, wiki, fish):
             print "Oops, you might have misstyped the name!"
             return ["Oops, you might have misstyped the name!"]
         print "It's " + style.BOLD + wiki_name, style.END
-        return wiki_name
+        return [wiki_name]
 
 
 def get_ladder(top, wiki, fish):
