@@ -184,21 +184,23 @@ def get_ladder(top, wiki, fish):
         fish_ladder.append(info)
     return fish_ladder
 
+def force_update():
+    print 'Wait a few sec... updating information...\n'
+    try:
+        os.remove('tlwiki.json')
+        os.remove('fish.json')
+    except (OSError, IOError):
+        print 'ERROR: Cannot delete "{0}" or "{1}"'.format('tlwiki.json',
+                                                           'fish.json')
+        print "You've probably opened them in your text editor :D"
+        sys.exit(1)
+    return update_data()
 
 def main(args):
     """Handle user args and act accordingly."""
     wiki, fish = update_data()
     if args.update:
-        print 'Wait a few sec... updating information...\n'
-        try:
-            os.remove('tlwiki.json')
-            os.remove('fish.json')
-        except (OSError, IOError):
-            print 'ERROR: Cannot delete "{0}" or "{1}"'.format('tlwiki.json',
-                                                               'fish.json')
-            print "You've probably opened them in your text editor :D"
-            sys.exit(1)
-        wiki, fish = update_data()
+        wiki, fish = force_update()
     if args.players:
         display_pls(wiki)
         print ''
@@ -287,6 +289,9 @@ class FishUI(ttk.Frame):
         player = '\n'.join(player_str) + '\n\n'
         self.Text1.insert('1.0', player)
 
+    def update_data(self):
+        self.wiki, self.fish = force_update()
+        
     def _build_gui(self):
         def make_resizable(elem, row, col, colspan, rowspan, stick):
             elem.grid(row=row, column=col, rowspan=rowspan, columnspan=colspan,
@@ -323,6 +328,9 @@ class FishUI(ttk.Frame):
         self.FishButt = ttk.Button(self.LadderFr, padding=(-10, 2), text='Get',
                                    command=self.get_fish, takefocus=True)
         self.FishButt.grid(row=0, column=1, sticky='w')
+        self.Update = ttk.Button(self.LadderFr, padding=(-10, 2), text='Update',
+                                 command=self.update_data, takefocus=True)
+        self.Update.grid(row=0, column=2, sticky='w')
         # Left Text field
         self.LadderFrInner = ttk.Frame(self.DataFr, borderwidth='2', relief='groove')
         make_resizable(self.LadderFrInner, 2, 0, 1, 1, 'nsew')
