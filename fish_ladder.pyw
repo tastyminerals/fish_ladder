@@ -113,7 +113,7 @@ def query_fish():
     # [u'1 \uc704', u'melverc', u'164', u'46', u'3381']
     for elem in grouped_ranking:
         games = int(elem[2]) + int(elem[3])
-        ratio = round(int(elem[2]) / games, 2) * 100
+        ratio = round(int(elem[2]) / games if games else 1, 2) * 100
         fish_ladder[elem[1]] = (elem[0].split()[0], ratio, elem[2], elem[3],
                                 games, elem[4])
     return fish_ladder
@@ -291,7 +291,7 @@ class FishUI(ttk.Frame):
 
     def update_data(self):
         self.wiki, self.fish = force_update()
-        
+
     def _build_gui(self):
         def make_resizable(elem, row, col, colspan, rowspan, stick):
             elem.grid(row=row, column=col, rowspan=rowspan, columnspan=colspan,
