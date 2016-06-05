@@ -23,6 +23,14 @@ except ImportError:
     print 'sudo pip2 install beautifulsoup4'
     sys.exit(1)
 
+try:
+    from fuzzywuzzy import fuzz
+    from fuzzywuzzy import process
+except ImportError:
+    print 'WARNING! Please install Python2 modules to enable fuzzy matching.'
+    print 'sudo pip2 install fuzzywuzzy'
+    print 'sudo pip2 install python-Levenshtein'
+
 
 # for those who likes colors
 class style:
@@ -146,6 +154,21 @@ def display_pls(wiki):
     return players
 
 
+def get_fuzzy_player(player_name, wiki, real=False):
+    """Get player id using fuzzy string match.
+    Not available in UI mode."""
+    if real:
+        fishname, ratio = process.extractOne(player_name, wiki.keys())
+        real_id = wiki.get(fishname)
+        print "It's {0}% {1}{2}{3}!".format(ratio, style.BOLD, real_id, style.END)
+    else:
+        fish_id = process.extractOne(player_name, wiki.values())
+        print 'Fish nicknames with >= 85% probability:'
+        for k,v in wiki.items():
+            if fuzz.ratio(v, fish_id[0]) >= 85:
+                print '{0} --> {1}, assummed "{2}"'.format(k, v, player_name)
+
+
 def get_player_info(player_name, wiki, fish):
     """Get information about specific player."""
     # lowecase all wiki names first
@@ -221,10 +244,16 @@ def main(args):
     if args.player:
         get_player_info(args.player, wiki, fish)
         print ''
+    if args.fuzzyreal:
+        get_fuzzy_player(args.fuzzyreal, wiki, True)
+        print ''
+    if args.fuzzyfish:
+        get_fuzzy_player(args.fuzzyfish, wiki)
+        print ''
     if args.top:
         get_ladder(args.top, wiki, fish)
         print ''
-    elif not args.top and not args.player and not args.players:
+    elif not any([args.top, args.player, args.players, args.fuzzyreal, args.fuzzyfish]):
         get_ladder(20, wiki, fish)
         print ''
 
@@ -411,6 +440,12 @@ if __name__ == '__main__':
                      help='Display information about specific player using his'
                      'nickname. It can be a real nickname or fish nickname.',
                      required=False)
+    prs.add_argument('-fr', '--fuzzyreal',
+                     help='Get a real id using fuzzy matching.',
+                     required=False)
+    prs.add_argument('-ff', '--fuzzyfish',
+                     help='Get a list of fish ids using fuzzy matching.',
+                     required=False)
     prs.add_argument('-pls', '--players', action='store_true',
                      help='Display a list of currently known BW players.',
                      required=False)
@@ -418,7 +453,7 @@ if __name__ == '__main__':
                      help='Fetch most recent data from tl.wiki and fish.',
                      required=False)
     args = prs.parse_args()
-    if args.top or args.player or args.players or args.update:
+    if any([args.top, args.player, args.players, args.fuzzyreal, args.fuzzyfish, args.update]):
         main(args)
     else:
         run_gui()
