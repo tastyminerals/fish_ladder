@@ -160,13 +160,14 @@ def get_fuzzy_player(player_name, wiki, real=False):
     if real:
         fishname, ratio = process.extractOne(player_name, wiki.keys())
         real_id = wiki.get(fishname)
-        print "It's {0}% {1}{2}{3}!".format(ratio, style.BOLD, real_id, style.END)
+        print u"It's {0}% {1}{2}{3}!".format(ratio, style.BOLD, real_id, style.END)
     else:
-        fish_id = process.extractOne(player_name, wiki.values())
-        print 'Fish nicknames with >= 85% probability:'
+        fish_id, prob = process.extractOne(player_name, wiki.values())
+        print 'It is {0}% {1}!'.format(prob, fish_id)
+        print ''
         for k,v in wiki.items():
-            if fuzz.ratio(v, fish_id[0]) >= 85:
-                print '{0} --> {1}, assummed "{2}"'.format(k, v, player_name)
+            if fuzz.ratio(v, fish_id) >= 85:
+                print u'{0} --> {1}'.format(k, v)
 
 
 def get_player_info(player_name, wiki, fish):
