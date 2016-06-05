@@ -13,6 +13,7 @@ import sys
 import ttk
 import Tkinter as tk
 
+
 try:
     import requests
     import bs4
@@ -21,6 +22,7 @@ except ImportError:
     print 'sudo pip2 install requests'
     print 'sudo pip2 install beautifulsoup4'
     sys.exit(1)
+
 
 # for those who likes colors
 class style:
@@ -49,13 +51,17 @@ def update_data():
         wiki = query_tl_wiki()
         with codecs.open('tlwiki.json', 'w', encoding='utf8') as fp:
             json.dump(wiki, fp, sort_keys=True, indent=2)
+        print 'Updated tlwiki.json!'
+
     try:
         with codecs.open('fish.json', 'r', encoding='utf8') as fp:
             fish = json.load(fp)
     except (IOError, OSError):
         fish = query_fish()
-        with codecs.open('fish.json', 'w', encoding='utf8') as fp:
-            json.dump(fish, fp, sort_keys=True, indent=2)
+        if fish:
+            with codecs.open('fish.json', 'w', encoding='utf8') as fp:
+                json.dump(fish, fp, sort_keys=True, indent=2)
+            print 'Updated fish.json!'
     return wiki, fish
 
 
@@ -98,25 +104,29 @@ def query_fish():
     fish_page = SESSION.get('http://www.fishbattle.net/rank_ladder')
     fish_rankings = bs4.BeautifulSoup(fish_page.content, 'lxml')
     rankings = fish_rankings.find('div', {'class': 'ctm'})
-    ranking = [td.string for td in rankings.find_all('td')]
-    # group and clean up
-    grouped_ranking = []
-    for i in ranking:
-        if i is None:
-            group = []
-            grouped_ranking.append(group)
-            continue
-        group.append(i)
-    grouped_ranking = [i for i in grouped_ranking if i]
-    # create a dict, fish_nickname: (rank, win_ratio, win, lost, games, points)
-    fish_ladder = {}
-    # [u'1 \uc704', u'melverc', u'164', u'46', u'3381']
-    for elem in grouped_ranking:
-        games = int(elem[2]) + int(elem[3])
-        ratio = round(int(elem[2]) / games if games else 1, 2) * 100
-        fish_ladder[elem[1]] = (elem[0].split()[0], ratio, elem[2], elem[3],
-                                games, elem[4])
-    return fish_ladder
+    if rankings:
+        ranking = [td.string for td in rankings.find_all('td')]
+        # group and clean up
+        grouped_ranking = []
+        for i in ranking:
+            if i is None:
+                group = []
+                grouped_ranking.append(group)
+                continue
+            group.append(i)
+        grouped_ranking = [i for i in grouped_ranking if i]
+        # create a dict, fish_nickname: (rank, win_ratio, win, lost, games, points)
+        fish_ladder = {}
+        # [u'1 \uc704', u'melverc', u'164', u'46', u'3381']
+        for elem in grouped_ranking:
+            games = int(elem[2]) + int(elem[3])
+            ratio = round(int(elem[2]) / games if games else 1, 2) * 100
+            fish_ladder[elem[1]] = (elem[0].split()[0], ratio, elem[2], elem[3],
+                                    games, elem[4])
+        return fish_ladder
+    else:
+        print 'ERROR! Could not retrieve data from fish server, sorry :('
+        #sys.exit(1)
 
 
 def display_pls(wiki):
@@ -184,17 +194,21 @@ def get_ladder(top, wiki, fish):
         fish_ladder.append(info)
     return fish_ladder
 
+
 def force_update():
     print 'Wait a few sec... updating information...\n'
+    wiki, fish = update_data()
     try:
         os.remove('tlwiki.json')
-        os.remove('fish.json')
+        if fish:
+            os.remove('fish.json')
     except (OSError, IOError):
         print 'ERROR: Cannot delete "{0}" or "{1}"'.format('tlwiki.json',
                                                            'fish.json')
         print "You've probably opened them in your text editor :D"
         sys.exit(1)
-    return update_data()
+    return wiki, fish
+
 
 def main(args):
     """Handle user args and act accordingly."""
@@ -370,10 +384,9 @@ class FishUI(ttk.Frame):
         self.Exit.grid(row=0, column=1)
 
 
-
 def run_gui():
     root = tk.Tk()
-    root.title('Fish Ladder 0.1')
+    root.title('Fish Ladder 0.2')
     # root.geometry("1000x630")  # gui size at startup
     root.columnconfigure(0, weight=1)
     root.rowconfigure(0, weight=1)
@@ -384,7 +397,6 @@ def run_gui():
     # ttk_theme.theme_use('clam')
     gui = FishUI(root)
     gui.mainloop()
-
 
 
 if __name__ == '__main__':
