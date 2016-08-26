@@ -434,11 +434,11 @@ if __name__ == '__main__':
     prs = argparse.ArgumentParser(description="""
     Query fish server and get the relevant information about BW players.""")
     prs.add_argument('-t', '--top', type=int,
-                     help='Specify the number of top players to be displayed,'
-                     ' default = 20.',
+                     help='Specify the number of top players to be displayed, '
+                     'default = 20.',
                      required=False)
     prs.add_argument('-p', '--player',
-                     help='Display information about specific player using his'
+                     help='Display information about specific player using his '
                      'nickname. It can be a real nickname or fish nickname.',
                      required=False)
     prs.add_argument('-fr', '--fuzzyreal',
