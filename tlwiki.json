@@ -1,414 +1,1662 @@
 {
-  "-_color": "Sexy", 
-  "._pOse": "Cola", 
-  "10[Sad]": "GuemChi", 
-  "1234[[[[[": "Shuttle", 
-  "123[[": "PianO", 
-  "15705967": "Sky", 
-  "204[[[[[": "PianO", 
-  "297[297]": "EffOrt", 
-  "30yearsold": "IriS", 
-  "31yearsold": "IriS", 
-  "4000won": "Pure", 
-  "4tim`keke`": "Jaehoon", 
-  "5dronegg": "Nal rA", 
-  "7000won": "Pure", 
-  "7000won[WHITE]": "Pure", 
-  "95": "Bale", 
-  "ACe)Spade": "Kim Carrier", 
-  "Afurica": "S2", 
-  "Aisukokoa": "User:Star", 
-  "BJ": "By.Spire", 
-  "BaeSujy": "IcaruS", 
-  "Bani": "Last", 
-  "Bestkaian": "Killer", 
-  "Beyonce": "Sharp", 
-  "Bisu2": "Bisu", 
-  "Bisu[Shield]": "Bisu", 
-  "Black[KaL]": "Ample", 
-  "Boy": "IcaruS", 
-  "By.Snow": "Snow", 
-  "By.Spire": "By.Spire", 
-  "By.herO": "Hero", 
-  "Calm[KaL]": "Calm", 
-  "Cbul_(l)": "GuemChi", 
-  "Cbul_olo": "HiyA", 
-  "Cen.ta": "PianO", 
-  "ChinaMang": "GuemChi", 
-  "Choboda": "Killer", 
-  "Choigoon": "Mong", 
-  "DaPenDa": "User:Smile", 
-  "DdongNemse": "Shuttle", 
-  "Demi": "Shuttle", 
-  "Do.Z": "S2", 
-  "Dream.T)Brain": "M18M", 
-  "Dream.T)D.Star": "M18M", 
-  "Dream.t)Gangyu": "Kwanro", 
-  "Dream.t)Jangbi": "JangBi", 
-  "Dream.t)Line(?)": "Beast", 
-  "Dream.t)cool": "Minam", 
-  "Dream.t)yMoO": "JangBi", 
-  "Dy[shield]": "MIsO", 
-  "ErO.pOse": "Cola", 
-  "ErOs_Ample": "Ample", 
-  "ErOs_DEC": "Light", 
-  "ErOs_KNR": "Ample", 
-  "ErOs_Onetop": "Shinee", 
-  "ErOs_OutSider": "Really", 
-  "ErOs_Rainbow": "RainBOw", 
-  "ErOs_dinosaur": "Shinee", 
-  "Eros_Light": "Light", 
-  "Eros_Really": "Really", 
-  "Ever)P(Bermuda": "Jaehoon", 
-  "Ever)P(Horang2": "Horang2", 
-  "Ever)P(IU": "Mini", 
-  "Ever)P(JJ": "Shuttle", 
-  "Ever)P(Luffy": "Shinee", 
-  "Ever)P(NO": "Modesty", 
-  "Ever)P(QumSin": "Olympus", 
-  "Ever)P(Sharp": "Jaehoon", 
-  "Ever)P(ShowTime": "Shuttle", 
-  "Ever)P(Sure": "Sky", 
-  "Ever)P(Waggu": "Mini", 
-  "Ever)P(est": "Sea.KH", 
-  "Ever)T(Last": "Last", 
-  "Ever)T(Turtle": "Ample", 
-  "Ever)T(aShley": "Last", 
-  "Ever)Z(Max": "Cola", 
-  "Ever)p(waggu": "Shuttle", 
-  "EverPMini": "Mini", 
-  "EyeWater[WHITE]": "Shuttle", 
-  "Fantastic.pOse": "Larva", 
-  "Fengzi": "Fengzi", 
-  "FlaSh": "Flash", 
-  "Focus": "Tyson", 
-  "FrOg": "Sea.KH", 
-  "Freebong": "Kwanro", 
-  "Frog": "Shinee", 
-  "GamjaTang": "Yerim2 (page does not exist)", 
-  "Garura": "SSak", 
-  "GeniusTerran": "NaDa", 
-  "GinkGO": "Tyson", 
-  "GoSu": "Last", 
-  "GongJu": "Sexy", 
-  "GooJila[KaL]": "Kal", 
-  "Gowoon": "Mong", 
-  "Gvoot": "Olympus", 
-  "HONEYNCHIP": "Mong", 
-  "Han.pOse": "Tyson", 
-  "Hasune": "Mini", 
-  "HerO.LTE": "Sexy", 
-  "Hestia[Shield]": "IcaruS", 
-  "HongSeol": "IcaruS", 
-  "Hyeona-": "IcaruS", 
-  "Hyung2da.pOse": "Tyson", 
-  "IamMang": "GuemChi", 
-  "IntrO)Hong9": "Larva", 
-  "JAT.70TAEKYU": "Zeus", 
-  "JJamTiger": "Sharp", 
-  "Jat.Girl": "Beast", 
-  "JatNaldo": "Pusan", 
-  "Jin[movie]": "Movie", 
-  "Kaka[WHITE]": "ZerO", 
-  "Karazzang4": "Sharp", 
-  "Killer[White]": "Killer", 
-  "King.2": "Tyson", 
-  "KwonBoA": "IcaruS", 
-  "Lange": "Larva", 
-  "Larva": "Larva", 
-  "Lets": "Modesty", 
-  "Lifechange": "MIsO", 
-  "LindsayLohan": "Minam", 
-  "Love.LTE": "Ample", 
-  "LoveCaffe": "IcaruS", 
-  "LoveChuLsk": "Hyuk", 
-  "Luv[ScM]": "Kwanro", 
-  "MaeSaeGgi": "EffOrt", 
-  "Mae[Shield]": "EffOrt", 
-  "Melverc": "Last", 
-  "Mi.PilLabak2": "Pusan", 
-  "Mi.nD": "Tyson", 
-  "Mi.nam": "Sky", 
-  "Mind[White]": "Mind", 
-  "Minus)Gold": "GuemChi", 
-  "Miso[Shield]": "MIsO", 
-  "MissU.BHJ": "Sky", 
-  "Mo.Hwasin": "Hwasin", 
-  "Mo.sSak": "SSak", 
-  "Moksaeggi": "Rush", 
-  "Mong": "Mong", 
-  "Monster[WHITE]": "Mong", 
-  "Moolgogi[Sado]": "HiyA", 
-  "Movie[KaL]": "Movie", 
-  "Myth.Ra": "ZerO", 
-  "Myth.siva": "PianO", 
-  "NAMICHIL": "Best", 
-  "NaDa": "NaDa", 
-  "NahyunJung": "Mini", 
-  "NsP_Alt[F4]": "HoGiL", 
-  "NsP_Asuna": "IcaruS", 
-  "NsP_Bale": "Bale", 
-  "NsP_Just": "sc2:Mercury", 
-  "NsP_Pure": "Bale", 
-  "NsP_QumSin": "Olympus", 
-  "NsP_Sharp": "Sharp", 
-  "NsP_Zerg": "HoGiL", 
-  "NsP_Zest": "Noble", 
-  "NsP_lazy": "Lazy", 
-  "NsP_note": "Sharp", 
-  "NtO`Yerim2": "Yerim2 (page does not exist)", 
-  "OME[BonJwa]": "GuemChi", 
-  "OMG_SKY": "Sky", 
-  "OUR": "Rush", 
-  "Olympus": "Olympus", 
-  "Painter": "HoGiL", 
-  "Pangya": "By.Sun", 
-  "Parkeunbe": "Mini", 
-  "Pass[KaL]": "Sky", 
-  "Pixy": "IcaruS", 
-  "PoKKAA": "Calm", 
-  "Pray`Tara_P": "Tyson", 
-  "Project": "Mind", 
-  "Public": "Tyson", 
-  "Pusan\u200b\u200b[SG]": "Pusan", 
-  "QTGIRL": "Zeus", 
-  "Qus.Ace": "Air", 
-  "Qus.redgom": "Mini", 
-  "RaTe": "Yerim2 (page does not exist)", 
-  "Review": "Tyson", 
-  "Rush[Shield]": "Rush", 
-  "SKTELECOMT1BEST": "Best", 
-  "SOSO[WHITE]": "SaiR", 
-  "SUPERNATURAL": "Movie", 
-  "SaSin)Horang2": "Horang2", 
-  "SadEyes": "Kal", 
-  "Sarin_Child": "Child", 
-  "Sarin_Hades": "TheRock", 
-  "Sarin_June": "ZergMan", 
-  "Sarin_Rain": "By.Sun", 
-  "Sarin_S2": "IriS", 
-  "Sarin_saram": "IriS", 
-  "Sarin_therock": "TheRock", 
-  "Sea[Shield]": "Sea", 
-  "SeeingSounds": "ZeLoT", 
-  "SeolHaRang": "IcaruS", 
-  "Sexy_No.1": "GuemChi", 
-  "Shield": "Leta", 
-  "Shinnie": "Kwanro", 
-  "Skuld": "User:Star", 
-  "So..`Peace": "Tyson", 
-  "Ssak": "Tyson", 
-  "StarCraft": "Shinee", 
-  "StarMaster": "Light", 
-  "SuTaMandoo": "ZerO", 
-  "SubwayQuick": "HiyA", 
-  "TN_EyeWater`": "Shuttle", 
-  "TT3TT": "PianO", 
-  "Tank": "IcaruS", 
-  "Tears[S.O]": "Mini", 
-  "TeemO.pOse": "Cola", 
-  "Terran": "HiyA", 
-  "Terran[ScM]": "IcaruS", 
-  "Tg.prince": "Sea", 
-  "TheFirst": "ZerO", 
-  "Thecute": "Free", 
-  "TimeNa": "Flash", 
-  "ToHolic": "Tyson", 
-  "TossOneTop": "Shinee", 
-  "Tossgaesagi": "Last", 
-  "Trying": "Shinee", 
-  "Uganda": "Yerim2 (page does not exist)", 
-  "Union`nansa": "HiyA", 
-  "VanPersie": "Sky", 
-  "We.Made": "Air", 
-  "Xavier[SAINT]": "Movie", 
-  "ZeLoT[Kal]": "ZeLoT", 
-  "ZeLoT`Bit": "ZeLoT", 
-  "Zebra": "Tyson", 
-  "ZerG[ScM]": "HoGiL", 
-  "Zerggaesagi": "Last", 
-  "Zizu": "HiyA", 
-  "[Lexus]Sana": "Ample", 
-  "[NeOx](`oo`)": "Mong", 
-  "[NeOx]1123": "SAviOr", 
-  "[NeOx]92": "ZerO", 
-  "[NeOx]Bermuda": "Jaehoon", 
-  "[NeOx]Carp": "HiyA", 
-  "[NeOx]FieSta": "Mini", 
-  "[NeOx]Force": "Force(Name)", 
-  "[NeOx]GOM": "Hero", 
-  "[NeOx]HOng9": "Larva", 
-  "[NeOx]Hero": "Sexy", 
-  "[NeOx]Jid": "StarCue", 
-  "[NeOx]MokPo": "GuemChi", 
-  "[NeOx]Snail": "Snail", 
-  "[NeOx]SsaL": "By.Spire", 
-  "[NeOx]What9": "Britney", 
-  "[NeOx]XIAda": "Sea", 
-  "[NeOx]abuse": "Beast", 
-  "[NeOx]byul82": "Sky", 
-  "[NeOx]mbc": "Air", 
-  "[NeOx]s6e9x": "Terror", 
-  "[NeOx]sSak": "SSak", 
-  "[Neox]CoLa": "Larva", 
-  "[Neox]FanTaStic": "sc2:LiveForever", 
-  "[P.sD])Goliath": "Mong", 
-  "[P.sD]Z.ling": "Killer", 
-  "[neox]hachi": "Sky", 
-  "[neox]time": "Sexy", 
-  "[neox]zeus": "Zeus", 
-  "[p.sd]TEMPLE": "Best", 
-  "`Byebye`": "SSak", 
-  "abercrombie": "Beast", 
-  "agumon": "Yerim2 (page does not exist)", 
-  "aimar21": "MIsO", 
-  "akwo": "SAviOr", 
-  "akzk123": "Larva", 
-  "alphago": "Last", 
-  "aoA": "Sky", 
-  "apm90[WHITE]": "Sea", 
-  "ashley18": "Last", 
-  "baechigi[name]": "Minam", 
-  "bahaeng": "Yerim2 (page does not exist)", 
-  "bangjangjotgga": "EffOrt", 
-  "beast[kaL]": "Beast", 
-  "best[white]": "Best", 
-  "best_10stork": "Air", 
-  "bikey78": "Shinee", 
-  "blacknute": "Perfectman", 
-  "blossom_heeya": "PianO", 
-  "boragood": "Cola", 
-  "bud": "Sexy", 
-  "butangass": "Jaehoon", 
-  "butcherzerg": "Kwanro", 
-  "ceres[myth]": "SAviOr", 
-  "ckdbstj": "Mini", 
-  "ckdtka": "Best", 
-  "costly": "Shinee", 
-  "cqusa_qiqi": "Fengzi", 
-  "crown[scm]": "Force(Name)", 
-  "dariusmilhaud": "IcaruS", 
-  "david": "PianO", 
-  "dibo": "Firebathero", 
-  "dkrekhd": "MIsO", 
-  "dorai": "Zeus", 
-  "dreamhigh": "IcaruS", 
-  "eeeee": "Calm", 
-  "ekresrnwern1": "sc2:Mercury", 
-  "electricity": "Larva", 
-  "eocjstk": "Force(Name)", 
-  "eros_asuna": "IcaruS", 
-  "eros_quality": "Flash", 
-  "etro_hyemi": "Beast", 
-  "ever)P(zeus": "Zeus", 
-  "ever)p(": "Snow", 
-  "fa1con": "Bisu", 
-  "fora": "Light", 
-  "forceup": "Force(Name)", 
-  "free.y": "Free", 
-  "gg_play": "Snow", 
-  "ggobuk.otl": "Cola", 
-  "girlsdayzzang4": "Sharp", 
-  "given": "Killer", 
-  "glow`jinu": "Beast", 
-  "gosu.": "Saber", 
-  "guessfree": "Mind", 
-  "gusrl0888": "Rush", 
-  "hea1979": "EffOrt", 
-  "hehe1004": "Bisu", 
-  "herO[GOM]": "Hero", 
-  "hild": "Last", 
-  "history": "Sexy", 
-  "hite[mvp]": "Sexy", 
-  "hosun": "S2", 
-  "intro)red": "Air", 
-  "intro)rex": "Air", 
-  "itankitank": "HoeJJa", 
-  "jaehoon777": "Jaehoon", 
-  "jat.bermuda": "Jaehoon", 
-  "jeonsul": "Last", 
-  "jicmanup": "PianO", 
-  "jusuk.": "SSak", 
-  "kanda": "User:Star", 
-  "kiss_lt": "Snow", 
-  "kka": "PianO", 
-  "koreaSBG": "Lazy", 
-  "koreakorea123": "Mind", 
-  "labak": "Pusan", 
-  "laka(beak)6704": "Shuttle", 
-  "leearam": "IcaruS", 
-  "lind": "Last", 
-  "luve": "Best", 
-  "luxury.Air": "Air", 
-  "mOtorcycle": "Luna", 
-  "mae": "EffOrt", 
-  "mae-3-": "IriS", 
-  "maecro": "EffOrt", 
-  "maekiller": "Killer", 
-  "mannedhome": "Ample", 
-  "marsbeen": "Shuttle", 
-  "mcfly": "Jaehoon", 
-  "medusa8919": "PianO", 
-  "mi.oo": "MIsO", 
-  "miSa": "User:Star", 
-  "mighty": "Tyson", 
-  "mind23232": "Mind", 
-  "mo.nster": "SSak", 
-  "mokaland": "Last", 
-  "mongkok": "ZeLoT", 
-  "moulton": "Sea", 
-  "mulgoginaksi": "Light", 
-  "myth.agni": "PianO", 
-  "nOmOshOw": "Shinee", 
-  "na1st": "Bisu", 
-  "na1st[Shield]": "Bisu", 
-  "nalra5dronegg": "Nal rA", 
-  "noin[sad]": "PianO", 
-  "noinsung": "Sea", 
-  "noxa": "GuemChi", 
-  "nto`R1": "User:Smile", 
-  "nto`head": "User:Smile", 
-  "onlystar": "Bisu", 
-  "organ[[[[[": "PianO", 
-  "organ[sad]": "PianO", 
-  "park-cham": "ZeLoT", 
-  "phenomenon_lt": "Saber", 
-  "pokgun": "Sexy", 
-  "powerberry": "Cola", 
-  "qwedddd": "Larva", 
-  "rainy[hyo]": "Snow", 
-  "ran2": "Force(Name)", 
-  "red.alert": "Sky", 
-  "rjsQkd": "MIsO", 
-  "sanjida": "Shuttle", 
-  "season": "Shuttle", 
-  "seerainbow": "PianO", 
-  "serana1": "Larva", 
-  "seul": "SSak", 
-  "shed": "Shinee", 
-  "sinsagom": "Shuttle", 
-  "smilebird": "EffOrt", 
-  "soulfucker": "PianO", 
-  "stone": "Jaehoon", 
-  "surveyanalyst": "Ample", 
-  "suzy": "IcaruS", 
-  "taekdol": "Bisu", 
-  "tasiki": "User:Star", 
-  "toot)": "Kal", 
-  "union`ufreeca": "Beast", 
-  "urban": "PianO", 
-  "usemapgoodgood": "Mong", 
-  "vips.staff": "Noble", 
-  "vvv.o__O": "PianO", 
-  "witnessme": "Minam", 
-  "yMoO": "JangBi", 
-  "ysa5846": "EffOrt", 
-  "yuambo[shield]": "Sea", 
-  "zehojo": "Bisu", 
-  "zerg": "Killer", 
-  "zeroboy": "Mong", 
-  "ziko": "Yerim2 (page does not exist)", 
-  "zinx1": "Modesty", 
-  "zkzkllk": "IcaruS", 
-  "zulja": "Force(Name)"
+  "-_color": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "._pOse": [
+    "Cola", 
+    "Zerg"
+  ], 
+  "10[Sad]": [
+    "GuemChi", 
+    "Protoss"
+  ], 
+  "1234[[[[[": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "123[[": [
+    "PianO", 
+    "Terran"
+  ], 
+  "15705967": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "204[[[[[": [
+    "PianO", 
+    "Terran"
+  ], 
+  "297[297]": [
+    "EffOrt", 
+    "Zerg"
+  ], 
+  "30yearsold": [
+    "IriS", 
+    "Terran"
+  ], 
+  "31yearsold": [
+    "IriS", 
+    "Terran"
+  ], 
+  "4000won": [
+    "Pure", 
+    "Protoss"
+  ], 
+  "4tim`keke`": [
+    "Jaehoon", 
+    "Protoss"
+  ], 
+  "5dronegg": [
+    "Nal rA", 
+    "Protoss"
+  ], 
+  "7000won": [
+    "Pure", 
+    "Protoss"
+  ], 
+  "7000won[WHITE]": [
+    "Pure", 
+    "Protoss"
+  ], 
+  "95": [
+    "Bale", 
+    "Zerg"
+  ], 
+  "ACe)Spade": [
+    "Kim Carrier", 
+    "Random"
+  ], 
+  "Afurica": [
+    "S2", 
+    "Zerg"
+  ], 
+  "Aisukokoa": [
+    "User:Star", 
+    "Terran"
+  ], 
+  "BJ": [
+    "By.Spire", 
+    "Zerg"
+  ], 
+  "BaeSujy": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "Bani": [
+    "Last", 
+    "Terran"
+  ], 
+  "Bestkaian": [
+    "Killer", 
+    "Zerg"
+  ], 
+  "Beyonce": [
+    "Sharp", 
+    "Terran"
+  ], 
+  "Bisu2": [
+    "Bisu", 
+    "Protoss"
+  ], 
+  "Bisu[Shield]": [
+    "Bisu", 
+    "Protoss"
+  ], 
+  "Black[KaL]": [
+    "Ample", 
+    "Terran"
+  ], 
+  "Boy": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "By.Snow": [
+    "Snow", 
+    "Protoss"
+  ], 
+  "By.Spire": [
+    "By.Spire", 
+    "Zerg"
+  ], 
+  "By.herO": [
+    "Hero", 
+    "Zerg"
+  ], 
+  "Calm[KaL]": [
+    "Calm", 
+    "Zerg"
+  ], 
+  "Cbul_(l)": [
+    "GuemChi", 
+    "Protoss"
+  ], 
+  "Cbul_olo": [
+    "HiyA", 
+    "Terran"
+  ], 
+  "Cen.ta": [
+    "PianO", 
+    "Terran"
+  ], 
+  "ChinaMang": [
+    "GuemChi", 
+    "Protoss"
+  ], 
+  "Choboda": [
+    "Killer", 
+    "Zerg"
+  ], 
+  "Choigoon": [
+    "Mong", 
+    "Terran"
+  ], 
+  "DaPenDa": [
+    "User:Smile", 
+    "Terran"
+  ], 
+  "DdongNemse": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "Demi": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "Do.Z": [
+    "S2", 
+    "Zerg"
+  ], 
+  "Dream.T)Brain": [
+    "M18M", 
+    "Protoss"
+  ], 
+  "Dream.T)D.Star": [
+    "M18M", 
+    "Protoss"
+  ], 
+  "Dream.t)Gangyu": [
+    "Kwanro", 
+    "Zerg"
+  ], 
+  "Dream.t)Jangbi": [
+    "JangBi", 
+    "Protoss"
+  ], 
+  "Dream.t)Line(?)": [
+    "Beast", 
+    "Zerg"
+  ], 
+  "Dream.t)cool": [
+    "Minam", 
+    "Terran"
+  ], 
+  "Dream.t)yMoO": [
+    "JangBi", 
+    "Protoss"
+  ], 
+  "Dy[shield]": [
+    "MIsO", 
+    "Zerg"
+  ], 
+  "ErO.pOse": [
+    "Cola", 
+    "Zerg"
+  ], 
+  "ErOs_Ample": [
+    "Ample", 
+    "Terran"
+  ], 
+  "ErOs_DEC": [
+    "Light", 
+    "Terran"
+  ], 
+  "ErOs_KNR": [
+    "Ample", 
+    "Terran"
+  ], 
+  "ErOs_Onetop": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "ErOs_OutSider": [
+    "Really", 
+    "Terran"
+  ], 
+  "ErOs_Rainbow": [
+    "RainBOw", 
+    "Protoss"
+  ], 
+  "ErOs_dinosaur": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "Eros_Light": [
+    "Light", 
+    "Terran"
+  ], 
+  "Eros_Really": [
+    "Really", 
+    "Terran"
+  ], 
+  "Ever)P(Bermuda": [
+    "Jaehoon", 
+    "Protoss"
+  ], 
+  "Ever)P(Horang2": [
+    "Horang2", 
+    "Protoss"
+  ], 
+  "Ever)P(IU": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "Ever)P(JJ": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "Ever)P(Luffy": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "Ever)P(NO": [
+    "Modesty", 
+    "Zerg"
+  ], 
+  "Ever)P(QumSin": [
+    "Olympus", 
+    "Protoss"
+  ], 
+  "Ever)P(Sharp": [
+    "Jaehoon", 
+    "Protoss"
+  ], 
+  "Ever)P(ShowTime": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "Ever)P(Sure": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "Ever)P(Waggu": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "Ever)P(est": [
+    "Sea.KH", 
+    "Protoss"
+  ], 
+  "Ever)T(Last": [
+    "Last", 
+    "Terran"
+  ], 
+  "Ever)T(Turtle": [
+    "Ample", 
+    "Terran"
+  ], 
+  "Ever)T(aShley": [
+    "Last", 
+    "Terran"
+  ], 
+  "Ever)Z(Max": [
+    "Cola", 
+    "Zerg"
+  ], 
+  "Ever)p(waggu": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "EverPMini": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "EyeWater[WHITE]": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "Fantastic.pOse": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "Fengzi": [
+    "Fengzi", 
+    "Zerg"
+  ], 
+  "FlaSh": [
+    "Flash", 
+    "Terran"
+  ], 
+  "Focus": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "FrOg": [
+    "Sea.KH", 
+    "Protoss"
+  ], 
+  "Freebong": [
+    "Kwanro", 
+    "Zerg"
+  ], 
+  "Frog": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "GamjaTang": [
+    "Yerim2 (page does not exist)", 
+    "Zerg"
+  ], 
+  "Garura": [
+    "SSak", 
+    "Terran"
+  ], 
+  "GeniusTerran": [
+    "NaDa", 
+    "Terran"
+  ], 
+  "GinkGO": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "GoSu": [
+    "Last", 
+    "Terran"
+  ], 
+  "GongJu": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "GooJila[KaL]": [
+    "Kal", 
+    "Protoss"
+  ], 
+  "Gowoon": [
+    "Mong", 
+    "Terran"
+  ], 
+  "Gvoot": [
+    "Olympus", 
+    "Protoss"
+  ], 
+  "HONEYNCHIP": [
+    "Mong", 
+    "Terran"
+  ], 
+  "Han.pOse": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "Hasune": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "HerO.LTE": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "HerO[S.G]": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "Hestia[Shield]": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "HongSeol": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "Hyeona-": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "Hyung2da.pOse": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "IamMang": [
+    "GuemChi", 
+    "Protoss"
+  ], 
+  "IntrO)Hong9": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "JAT.70TAEKYU": [
+    "Zeus", 
+    "Protoss"
+  ], 
+  "JJamTiger": [
+    "Sharp", 
+    "Terran"
+  ], 
+  "Jat.Girl": [
+    "Beast", 
+    "Zerg"
+  ], 
+  "JatNaldo": [
+    "Pusan", 
+    "Protoss"
+  ], 
+  "Jin[movie]": [
+    "Movie", 
+    "Protoss"
+  ], 
+  "Kaka[WHITE]": [
+    "ZerO", 
+    "Zerg"
+  ], 
+  "Karazzang4": [
+    "Sharp", 
+    "Terran"
+  ], 
+  "Killer[White]": [
+    "Killer", 
+    "Zerg"
+  ], 
+  "King.2": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "KwonBoA": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "Lange": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "Larva": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "Leta[Shield]": [
+    "Leta", 
+    "Terran"
+  ], 
+  "Lets": [
+    "Modesty", 
+    "Zerg"
+  ], 
+  "Lifechange": [
+    "MIsO", 
+    "Zerg"
+  ], 
+  "LindsayLohan": [
+    "Minam", 
+    "Terran"
+  ], 
+  "Love.LTE": [
+    "Ample", 
+    "Terran"
+  ], 
+  "LoveCaffe": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "LoveChuLsk": [
+    "Hyuk", 
+    "Zerg"
+  ], 
+  "Luv[ScM]": [
+    "Kwanro", 
+    "Zerg"
+  ], 
+  "MaeSaeGgi": [
+    "EffOrt", 
+    "Zerg"
+  ], 
+  "Mae[Shield]": [
+    "EffOrt", 
+    "Zerg"
+  ], 
+  "Melverc": [
+    "Last", 
+    "Terran"
+  ], 
+  "Mi.PilLabak2": [
+    "Pusan", 
+    "Protoss"
+  ], 
+  "Mi.nD": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "Mi.nam": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "Mind[White]": [
+    "Mind", 
+    "Terran"
+  ], 
+  "Minus)Gold": [
+    "GuemChi", 
+    "Protoss"
+  ], 
+  "Miso[Shield]": [
+    "MIsO", 
+    "Zerg"
+  ], 
+  "MissU.BHJ": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "Mo.Hwasin": [
+    "Hwasin", 
+    "Terran"
+  ], 
+  "Mo.sSak": [
+    "SSak", 
+    "Terran"
+  ], 
+  "Moksaeggi": [
+    "Rush", 
+    "Terran"
+  ], 
+  "Mong": [
+    "Mong", 
+    "Terran"
+  ], 
+  "Monster[WHITE]": [
+    "Mong", 
+    "Terran"
+  ], 
+  "Moolgogi[Sado]": [
+    "HiyA", 
+    "Terran"
+  ], 
+  "Movie[KaL]": [
+    "Movie", 
+    "Protoss"
+  ], 
+  "Myth.Ra": [
+    "ZerO", 
+    "Zerg"
+  ], 
+  "Myth.siva": [
+    "PianO", 
+    "Terran"
+  ], 
+  "NAMICHIL": [
+    "Best", 
+    "Protoss"
+  ], 
+  "NaDa": [
+    "NaDa", 
+    "Terran"
+  ], 
+  "NahyunJung": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "NsP_Alt[F4]": [
+    "HoGiL", 
+    "Zerg"
+  ], 
+  "NsP_Asuna": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "NsP_Bale": [
+    "Bale", 
+    "Zerg"
+  ], 
+  "NsP_Just": [
+    "sc2:Mercury", 
+    "Terran"
+  ], 
+  "NsP_Pure": [
+    "Bale", 
+    "Zerg"
+  ], 
+  "NsP_QumSin": [
+    "Olympus", 
+    "Protoss"
+  ], 
+  "NsP_Sharp": [
+    "Sharp", 
+    "Terran"
+  ], 
+  "NsP_Zerg": [
+    "HoGiL", 
+    "Zerg"
+  ], 
+  "NsP_Zest": [
+    "Noble", 
+    "Protoss"
+  ], 
+  "NsP_lazy": [
+    "Lazy", 
+    "Protoss"
+  ], 
+  "NsP_note": [
+    "Sharp", 
+    "Terran"
+  ], 
+  "NtO`Yerim2": [
+    "Yerim2 (page does not exist)", 
+    "Zerg"
+  ], 
+  "OME[BonJwa]": [
+    "GuemChi", 
+    "Protoss"
+  ], 
+  "OMG_SKY": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "OUR": [
+    "Rush", 
+    "Terran"
+  ], 
+  "Olympus": [
+    "Olympus", 
+    "Protoss"
+  ], 
+  "Painter": [
+    "HoGiL", 
+    "Zerg"
+  ], 
+  "Pangya": [
+    "By.Sun", 
+    "Protoss"
+  ], 
+  "Parkeunbe": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "Pass[KaL]": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "Pixy": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "PoKKAA": [
+    "Calm", 
+    "Zerg"
+  ], 
+  "Pray`Tara_P": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "Project": [
+    "Mind", 
+    "Terran"
+  ], 
+  "Public": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "Pusan\u200b\u200b[SG]": [
+    "Pusan", 
+    "Protoss"
+  ], 
+  "QTGIRL": [
+    "Zeus", 
+    "Protoss"
+  ], 
+  "Qus.Ace": [
+    "Air", 
+    "Protoss"
+  ], 
+  "Qus.redgom": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "RaTe": [
+    "Yerim2 (page does not exist)", 
+    "Zerg"
+  ], 
+  "Review": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "Rush[Shield]": [
+    "Rush", 
+    "Terran"
+  ], 
+  "SKTELECOMT1BEST": [
+    "Best", 
+    "Protoss"
+  ], 
+  "SOSO[WHITE]": [
+    "SaiR", 
+    "Terran"
+  ], 
+  "SUPERNATURAL": [
+    "Movie", 
+    "Protoss"
+  ], 
+  "SaSin)Horang2": [
+    "Horang2", 
+    "Protoss"
+  ], 
+  "SadEyes": [
+    "Kal", 
+    "Protoss"
+  ], 
+  "Sarin_Child": [
+    "Child", 
+    "Zerg"
+  ], 
+  "Sarin_Hades": [
+    "TheRock", 
+    "Protoss"
+  ], 
+  "Sarin_June": [
+    "ZergMan", 
+    "Zerg"
+  ], 
+  "Sarin_Rain": [
+    "By.Sun", 
+    "Protoss"
+  ], 
+  "Sarin_S2": [
+    "IriS", 
+    "Terran"
+  ], 
+  "Sarin_saram": [
+    "IriS", 
+    "Terran"
+  ], 
+  "Sarin_therock": [
+    "TheRock", 
+    "Protoss"
+  ], 
+  "Sea[Shield]": [
+    "Sea", 
+    "Terran"
+  ], 
+  "SeeingSounds": [
+    "ZeLoT", 
+    "Zerg"
+  ], 
+  "SeolHaRang": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "Sexy_No.1": [
+    "GuemChi", 
+    "Protoss"
+  ], 
+  "Shield": [
+    "Leta", 
+    "Terran"
+  ], 
+  "Shinnie": [
+    "Kwanro", 
+    "Zerg"
+  ], 
+  "Skuld": [
+    "User:Star", 
+    "Terran"
+  ], 
+  "So..`Peace": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "Ssak": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "StarCraft": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "StarMaster": [
+    "Light", 
+    "Terran"
+  ], 
+  "SuTaMandoo": [
+    "ZerO", 
+    "Zerg"
+  ], 
+  "SubwayQuick": [
+    "HiyA", 
+    "Terran"
+  ], 
+  "TN_EyeWater`": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "TT3TT": [
+    "PianO", 
+    "Terran"
+  ], 
+  "Tank": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "Tears[S.O]": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "TeemO.pOse": [
+    "Cola", 
+    "Zerg"
+  ], 
+  "Terran": [
+    "HiyA", 
+    "Terran"
+  ], 
+  "Terran[ScM]": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "Tg.prince": [
+    "Sea", 
+    "Terran"
+  ], 
+  "TheFirst": [
+    "ZerO", 
+    "Zerg"
+  ], 
+  "Thecute": [
+    "Free", 
+    "Protoss"
+  ], 
+  "TimeNa": [
+    "Flash", 
+    "Terran"
+  ], 
+  "ToHolic": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "TossOneTop": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "Tossgaesagi": [
+    "Last", 
+    "Terran"
+  ], 
+  "Trying": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "Uganda": [
+    "Yerim2 (page does not exist)", 
+    "Zerg"
+  ], 
+  "Union`nansa": [
+    "HiyA", 
+    "Terran"
+  ], 
+  "VanPersie": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "We.Made": [
+    "Air", 
+    "Protoss"
+  ], 
+  "Xavier[SAINT]": [
+    "Movie", 
+    "Protoss"
+  ], 
+  "ZeLoT[Kal]": [
+    "ZeLoT", 
+    "Zerg"
+  ], 
+  "ZeLoT`Bit": [
+    "ZeLoT", 
+    "Zerg"
+  ], 
+  "Zebra": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "ZerG[ScM]": [
+    "HoGiL", 
+    "Zerg"
+  ], 
+  "Zerggaesagi": [
+    "Last", 
+    "Terran"
+  ], 
+  "Zizu": [
+    "HiyA", 
+    "Terran"
+  ], 
+  "[Lexus]Sana": [
+    "Ample", 
+    "Terran"
+  ], 
+  "[NeOx](`oo`)": [
+    "Mong", 
+    "Terran"
+  ], 
+  "[NeOx]1123": [
+    "SAviOr", 
+    "Zerg"
+  ], 
+  "[NeOx]92": [
+    "ZerO", 
+    "Zerg"
+  ], 
+  "[NeOx]Bermuda": [
+    "Jaehoon", 
+    "Protoss"
+  ], 
+  "[NeOx]Carp": [
+    "HiyA", 
+    "Terran"
+  ], 
+  "[NeOx]FieSta": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "[NeOx]Force": [
+    "Force(Name)", 
+    "Zerg"
+  ], 
+  "[NeOx]GOM": [
+    "Hero", 
+    "Zerg"
+  ], 
+  "[NeOx]HOng9": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "[NeOx]Hero": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "[NeOx]Jid": [
+    "StarCue", 
+    "Zerg"
+  ], 
+  "[NeOx]MokPo": [
+    "GuemChi", 
+    "Protoss"
+  ], 
+  "[NeOx]Snail": [
+    "Snail", 
+    "Zerg"
+  ], 
+  "[NeOx]SsaL": [
+    "By.Spire", 
+    "Zerg"
+  ], 
+  "[NeOx]What9": [
+    "Britney", 
+    "Protoss"
+  ], 
+  "[NeOx]XIAda": [
+    "Sea", 
+    "Terran"
+  ], 
+  "[NeOx]abuse": [
+    "Beast", 
+    "Zerg"
+  ], 
+  "[NeOx]byul82": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "[NeOx]mbc": [
+    "Air", 
+    "Protoss"
+  ], 
+  "[NeOx]s6e9x": [
+    "Terror", 
+    "Zerg"
+  ], 
+  "[NeOx]sSak": [
+    "SSak", 
+    "Terran"
+  ], 
+  "[Neox]CoLa": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "[Neox]FanTaStic": [
+    "sc2:LiveForever", 
+    "Terran"
+  ], 
+  "[P.sD])Goliath": [
+    "Mong", 
+    "Terran"
+  ], 
+  "[P.sD]Z.ling": [
+    "Killer", 
+    "Zerg"
+  ], 
+  "[neox]hachi": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "[neox]time": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "[neox]zeus": [
+    "Zeus", 
+    "Protoss"
+  ], 
+  "[p.sd]TEMPLE": [
+    "Best", 
+    "Protoss"
+  ], 
+  "`Byebye`": [
+    "SSak", 
+    "Terran"
+  ], 
+  "abercrombie": [
+    "Beast", 
+    "Zerg"
+  ], 
+  "agumon": [
+    "Yerim2 (page does not exist)", 
+    "Zerg"
+  ], 
+  "aimar21": [
+    "MIsO", 
+    "Zerg"
+  ], 
+  "akwo": [
+    "SAviOr", 
+    "Zerg"
+  ], 
+  "akzk123": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "alphago": [
+    "Last", 
+    "Terran"
+  ], 
+  "aoA": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "apm90[WHITE]": [
+    "Sea", 
+    "Terran"
+  ], 
+  "ashley18": [
+    "Last", 
+    "Terran"
+  ], 
+  "baechigi[name]": [
+    "Minam", 
+    "Terran"
+  ], 
+  "bahaeng": [
+    "Yerim2 (page does not exist)", 
+    "Zerg"
+  ], 
+  "bangjangjotgga": [
+    "EffOrt", 
+    "Zerg"
+  ], 
+  "beast[kaL]": [
+    "Beast", 
+    "Zerg"
+  ], 
+  "best[white]": [
+    "Best", 
+    "Protoss"
+  ], 
+  "best_10stork": [
+    "Air", 
+    "Protoss"
+  ], 
+  "bikey78": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "blacknute": [
+    "Perfectman", 
+    "Protoss"
+  ], 
+  "blossom_heeya": [
+    "PianO", 
+    "Terran"
+  ], 
+  "boragood": [
+    "Cola", 
+    "Zerg"
+  ], 
+  "bud": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "butangass": [
+    "Jaehoon", 
+    "Protoss"
+  ], 
+  "butcherzerg": [
+    "Kwanro", 
+    "Zerg"
+  ], 
+  "ceres[myth]": [
+    "SAviOr", 
+    "Zerg"
+  ], 
+  "ckdbstj": [
+    "Mini", 
+    "Protoss"
+  ], 
+  "ckdtka": [
+    "Best", 
+    "Protoss"
+  ], 
+  "costly": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "cqusa_qiqi": [
+    "Fengzi", 
+    "Zerg"
+  ], 
+  "crown[scm]": [
+    "Force(Name)", 
+    "Zerg"
+  ], 
+  "dariusmilhaud": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "david": [
+    "PianO", 
+    "Terran"
+  ], 
+  "dibo": [
+    "Firebathero", 
+    "Terran"
+  ], 
+  "dkrekhd": [
+    "MIsO", 
+    "Zerg"
+  ], 
+  "dorai": [
+    "Zeus", 
+    "Protoss"
+  ], 
+  "dreamhigh": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "eeeee": [
+    "Calm", 
+    "Zerg"
+  ], 
+  "ekresrnwern1": [
+    "sc2:Mercury", 
+    "Terran"
+  ], 
+  "electricity": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "eocjstk": [
+    "Force(Name)", 
+    "Zerg"
+  ], 
+  "eros_asuna": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "eros_quality": [
+    "Flash", 
+    "Terran"
+  ], 
+  "etro_hyemi": [
+    "Beast", 
+    "Zerg"
+  ], 
+  "ever)P(zeus": [
+    "Zeus", 
+    "Protoss"
+  ], 
+  "ever)p(": [
+    "Snow", 
+    "Protoss"
+  ], 
+  "fa1con": [
+    "Bisu", 
+    "Protoss"
+  ], 
+  "fora": [
+    "Light", 
+    "Terran"
+  ], 
+  "forceup": [
+    "Force(Name)", 
+    "Zerg"
+  ], 
+  "free.y": [
+    "Free", 
+    "Protoss"
+  ], 
+  "gg_play": [
+    "Snow", 
+    "Protoss"
+  ], 
+  "ggobuk.otl": [
+    "Cola", 
+    "Zerg"
+  ], 
+  "girlsdayzzang4": [
+    "Sharp", 
+    "Terran"
+  ], 
+  "given": [
+    "Killer", 
+    "Zerg"
+  ], 
+  "glow`jinu": [
+    "Beast", 
+    "Zerg"
+  ], 
+  "gosu.": [
+    "Saber", 
+    "Zerg"
+  ], 
+  "guessfree": [
+    "Mind", 
+    "Terran"
+  ], 
+  "gusrl0888": [
+    "Rush", 
+    "Terran"
+  ], 
+  "hea1979": [
+    "EffOrt", 
+    "Zerg"
+  ], 
+  "hehe1004": [
+    "Bisu", 
+    "Protoss"
+  ], 
+  "herO[GOM]": [
+    "Hero", 
+    "Zerg"
+  ], 
+  "hild": [
+    "Last", 
+    "Terran"
+  ], 
+  "history": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "hite[mvp]": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "hosun": [
+    "S2", 
+    "Zerg"
+  ], 
+  "intro)red": [
+    "Air", 
+    "Protoss"
+  ], 
+  "intro)rex": [
+    "Air", 
+    "Protoss"
+  ], 
+  "itankitank": [
+    "HoeJJa", 
+    "Zerg"
+  ], 
+  "jaehoon777": [
+    "Jaehoon", 
+    "Protoss"
+  ], 
+  "jat.bermuda": [
+    "Jaehoon", 
+    "Protoss"
+  ], 
+  "jeonsul": [
+    "Last", 
+    "Terran"
+  ], 
+  "jicmanup": [
+    "PianO", 
+    "Terran"
+  ], 
+  "jusuk.": [
+    "SSak", 
+    "Terran"
+  ], 
+  "kanda": [
+    "User:Star", 
+    "Terran"
+  ], 
+  "kiss_lt": [
+    "Snow", 
+    "Protoss"
+  ], 
+  "kka": [
+    "PianO", 
+    "Terran"
+  ], 
+  "koreaSBG": [
+    "Lazy", 
+    "Protoss"
+  ], 
+  "koreakorea123": [
+    "Mind", 
+    "Terran"
+  ], 
+  "labak": [
+    "Pusan", 
+    "Protoss"
+  ], 
+  "laka(beak)6704": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "leearam": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "lind": [
+    "Last", 
+    "Terran"
+  ], 
+  "luve": [
+    "Best", 
+    "Protoss"
+  ], 
+  "luxury.Air": [
+    "Air", 
+    "Protoss"
+  ], 
+  "mOtorcycle": [
+    "Luna", 
+    "Protoss"
+  ], 
+  "mae": [
+    "EffOrt", 
+    "Zerg"
+  ], 
+  "mae-3-": [
+    "IriS", 
+    "Terran"
+  ], 
+  "maecro": [
+    "EffOrt", 
+    "Zerg"
+  ], 
+  "maekiller": [
+    "Killer", 
+    "Zerg"
+  ], 
+  "mannedhome": [
+    "Ample", 
+    "Terran"
+  ], 
+  "marsbeen": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "mcfly": [
+    "Jaehoon", 
+    "Protoss"
+  ], 
+  "medusa8919": [
+    "PianO", 
+    "Terran"
+  ], 
+  "mi.oo": [
+    "MIsO", 
+    "Zerg"
+  ], 
+  "miSa": [
+    "User:Star", 
+    "Terran"
+  ], 
+  "mighty": [
+    "Tyson", 
+    "Protoss"
+  ], 
+  "mind23232": [
+    "Mind", 
+    "Terran"
+  ], 
+  "mo.nster": [
+    "SSak", 
+    "Terran"
+  ], 
+  "mokaland": [
+    "Last", 
+    "Terran"
+  ], 
+  "mongkok": [
+    "ZeLoT", 
+    "Zerg"
+  ], 
+  "moulton": [
+    "Sea", 
+    "Terran"
+  ], 
+  "mulgoginaksi": [
+    "Light", 
+    "Terran"
+  ], 
+  "myth.agni": [
+    "PianO", 
+    "Terran"
+  ], 
+  "nOmOshOw": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "na1st": [
+    "Bisu", 
+    "Protoss"
+  ], 
+  "na1st[Shield]": [
+    "Bisu", 
+    "Protoss"
+  ], 
+  "nalra5dronegg": [
+    "Nal rA", 
+    "Protoss"
+  ], 
+  "noin[sad]": [
+    "PianO", 
+    "Terran"
+  ], 
+  "noinsung": [
+    "Sea", 
+    "Terran"
+  ], 
+  "noxa": [
+    "GuemChi", 
+    "Protoss"
+  ], 
+  "nto`R1": [
+    "User:Smile", 
+    "Terran"
+  ], 
+  "nto`head": [
+    "User:Smile", 
+    "Terran"
+  ], 
+  "onlystar": [
+    "Bisu", 
+    "Protoss"
+  ], 
+  "organ[[[[[": [
+    "PianO", 
+    "Terran"
+  ], 
+  "organ[sad]": [
+    "PianO", 
+    "Terran"
+  ], 
+  "park-cham": [
+    "ZeLoT", 
+    "Zerg"
+  ], 
+  "phenomenon_lt": [
+    "Saber", 
+    "Zerg"
+  ], 
+  "pokgun": [
+    "Sexy", 
+    "Terran"
+  ], 
+  "powerberry": [
+    "Cola", 
+    "Zerg"
+  ], 
+  "qwedddd": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "rainy[hyo]": [
+    "Snow", 
+    "Protoss"
+  ], 
+  "ran2": [
+    "Force(Name)", 
+    "Zerg"
+  ], 
+  "red.alert": [
+    "Sky", 
+    "Protoss"
+  ], 
+  "rjsQkd": [
+    "MIsO", 
+    "Zerg"
+  ], 
+  "sanjida": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "season": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "seerainbow": [
+    "PianO", 
+    "Terran"
+  ], 
+  "serana1": [
+    "Larva", 
+    "Zerg"
+  ], 
+  "seul": [
+    "SSak", 
+    "Terran"
+  ], 
+  "shed": [
+    "Shinee", 
+    "Terran"
+  ], 
+  "sinsagom": [
+    "Shuttle", 
+    "Protoss"
+  ], 
+  "smilebird": [
+    "EffOrt", 
+    "Zerg"
+  ], 
+  "soulfucker": [
+    "PianO", 
+    "Terran"
+  ], 
+  "stone": [
+    "Jaehoon", 
+    "Protoss"
+  ], 
+  "surveyanalyst": [
+    "Ample", 
+    "Terran"
+  ], 
+  "suzy": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "taekdol": [
+    "Bisu", 
+    "Protoss"
+  ], 
+  "tasiki": [
+    "User:Star", 
+    "Terran"
+  ], 
+  "toot)": [
+    "Kal", 
+    "Protoss"
+  ], 
+  "union`ufreeca": [
+    "Beast", 
+    "Zerg"
+  ], 
+  "urban": [
+    "PianO", 
+    "Terran"
+  ], 
+  "usemapgoodgood": [
+    "Mong", 
+    "Terran"
+  ], 
+  "vips.chef": [
+    "Noble", 
+    "Protoss"
+  ], 
+  "vips.staff": [
+    "Noble", 
+    "Protoss"
+  ], 
+  "vvv.o__O": [
+    "PianO", 
+    "Terran"
+  ], 
+  "witnessme": [
+    "Minam", 
+    "Terran"
+  ], 
+  "yMoO": [
+    "JangBi", 
+    "Protoss"
+  ], 
+  "ysa5846": [
+    "EffOrt", 
+    "Zerg"
+  ], 
+  "yuambo[shield]": [
+    "Sea", 
+    "Terran"
+  ], 
+  "zehojo": [
+    "Bisu", 
+    "Protoss"
+  ], 
+  "zerg": [
+    "Killer", 
+    "Zerg"
+  ], 
+  "zeroboy": [
+    "Mong", 
+    "Terran"
+  ], 
+  "ziko": [
+    "Yerim2 (page does not exist)", 
+    "Zerg"
+  ], 
+  "zinx1": [
+    "Modesty", 
+    "Zerg"
+  ], 
+  "zkzkllk": [
+    "IcaruS", 
+    "Terran"
+  ], 
+  "zulja": [
+    "Force(Name)", 
+    "Zerg"
+  ]
 }
