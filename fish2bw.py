@@ -45,7 +45,7 @@ class style:
     END = '\033[0m'
 
 
-race2color = {'Protoss':style.CYAN,
+race2color = {'Protoss':style.GREEN,
               'Zerg':style.RED,
               'Terran':style.BLUE,
               'Random':style.UNDERLINE}
@@ -101,7 +101,8 @@ def parse_tl_wiki():
 
 def get_all(wiki):
     """Display a sorted list of all known BW players."""
-    name_srt = sorted(set([n for n in wiki.values()]))
+    name_srt = sorted(set([n[0][0]+race2color[n[1]]+n[0]+style.END
+                      for n in wiki.values()]))
     first = ''
     players = []
     for name in name_srt:
@@ -111,9 +112,7 @@ def get_all(wiki):
             print style.BOLD
             print letter.upper(), style.END
             players.append((letter.upper(),))
-        print ' ', name
-        players.append(name)
-    return players
+        print ' ', name[1:]
 
 
 def bwid(player_name, wiki):
@@ -171,7 +170,9 @@ def main(args):
 if __name__ == '__main__':
     SESSION = requests.session()
     prs = argparse.ArgumentParser(description="""
-    Reveal who hides under particular fish id.""")
+    Reveal who hides under particular fish id.
+    Green - Protoss, Blue - Terran, Red - Zerg.""",
+    formatter_class=argparse.RawTextHelpFormatter)
     prs.add_argument('-p', '--player',
                      help='Get BW id.',
                      required=False)
