@@ -142,7 +142,7 @@ def fishids(bwid, wiki):
 
 
 def force_update():
-    print 'Wait a few sec... updating information...\n'
+    print 'Wait a few sec... updating information...'
     try:
         os.remove('tlwiki.json')
     except (OSError, IOError):
