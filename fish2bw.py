@@ -120,7 +120,7 @@ def get_all(wiki):
 def bwid(player_name, wiki):
     """Get BW id using fuzzy string match."""
     fishname, ratio = process.extractOne(player_name, wiki.keys())
-    if ratio <= 80:
+    if ratio <= 75:
         print("Oops, not found in fish database.")
         return 0
     real_id = wiki.get(fishname)
