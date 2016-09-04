@@ -1,5 +1,4 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
 """
 Get the real BW nickname given fish server nickname.
 Keep local db updated from tl.net.
@@ -11,24 +10,27 @@ import re
 import os
 import sys
 
+
 TLURL = "http://wiki.teamliquid.net/starcraft/Fish_Server#List_of_Known_Fish_Server_Usernames"
+
 
 try:
     import requests
     import bs4
 except ImportError:
-    print 'ERROR! Please install Python2 modules using the commands below:'
-    print 'sudo pip2 install requests'
-    print 'sudo pip2 install beautifulsoup4'
+    print('ERROR! Please install Python modules using the commands below:')
+    print('pip install requests')
+    print('pip install beautifulsoup4')
     sys.exit(1)
+
 
 try:
     from fuzzywuzzy import fuzz
     from fuzzywuzzy import process
 except ImportError:
-    print 'WARNING! Please install Python2 modules to enable fuzzy matching.'
-    print 'sudo pip2 install fuzzywuzzy'
-    print 'sudo pip2 install python-Levenshtein'
+    print('WARNING! Please install Python modules to enable fuzzy matching.')
+    print('pip install fuzzywuzzy')
+    print('pip install python-Levenshtein')
 
 
 # for those who likes colors
@@ -109,22 +111,22 @@ def get_all(wiki):
         letter = name[0]
         if first != letter:
             first = letter
-            print style.BOLD
-            print letter.upper(), style.END
+            print(style.BOLD)
+            print(letter.upper(), style.END)
             players.append((letter.upper(),))
-        print ' ', name[1:]
+        print(' ', name[1:])
 
 
 def bwid(player_name, wiki):
     """Get BW id using fuzzy string match."""
     fishname, ratio = process.extractOne(player_name, wiki.keys())
     if ratio <= 80:
-        print "Oops, not found in fish database."
+        print("Oops, not found in fish database.")
         return 0
     real_id = wiki.get(fishname)
     real_id = '{0}{1}{2}'.format(race2color[real_id[1] or 'Random'],
                                  real_id[0], style.END)
-    print u"It's {0}% {1}{2}{3}!".format(ratio, style.BOLD, real_id, style.END)
+    print(u"It's {0}% {1}{2}{3}".format(ratio, style.BOLD, real_id, style.END))
 
 
 def fishids(bwid, wiki):
@@ -134,20 +136,20 @@ def fishids(bwid, wiki):
     fish_id, prob = process.extractOne(bwid, norace_wiki.values())
     race = dict(wiki.values()).get(bwid)
     if not race:
-        print 'Please check your spelling!'
+        print('Please check your spelling!')
     for k,v in wiki.items():
         if bwid == v[0]:
             fishid = '{0}{1}{2}'.format(race2color[race], k, style.END)
-            print u'{0}{1}{2}'.format(style.BOLD,fishid,style.END)
+            print(u'{0}{1}{2}'.format(style.BOLD,fishid,style.END))
 
 
 def force_update():
-    print 'Wait a few sec... updating information...'
+    print('Wait a few sec... updating information...')
     try:
         os.remove('tlwiki.json')
     except (OSError, IOError):
-        print 'ERROR: Cannot delete "{0}".'.format('tlwiki.json')
-        print "You've probably opened them in your text editor :D"
+        print('ERROR: Cannot delete "{0}".'.format('tlwiki.json'))
+        print("You've probably opened them in your text editor :D")
         sys.exit(1)
     wiki = update_data()
     return wiki
@@ -160,7 +162,6 @@ def main(args):
         wiki = force_update()
     if args.all:
         get_all(wiki)
-        print ''
     if args.fishids:
         fishids(args.fishids, wiki)
     if args.player:
@@ -187,4 +188,3 @@ if __name__ == '__main__':
                      required=False)
     args = prs.parse_args()
     main(args)
-
